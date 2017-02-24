@@ -20,16 +20,16 @@ var data =  $.getJSON('https://jsonplaceholder.typicode.com/posts', function(pos
 	Highcharts.chart('container', {
 
     title: {
-        text: 'Solar Employment Growth by Sector, 2010-2016'
+        text: 'Caratteri battuti nel tempo dai nostri utenti'
     },
 
     subtitle: {
-        text: 'Source: thesolarfoundation.com'
+        text: 'Source: jsonplaceholder.com'
     },
 
     yAxis: {
         title: {
-            text: 'Number of Employees'
+            text: 'Caratteri battuti'
         }
     },
     legend: {
@@ -39,9 +39,9 @@ var data =  $.getJSON('https://jsonplaceholder.typicode.com/posts', function(pos
     },
 
     plotOptions: {
-        series: {
+       /* series: {
             pointStart: 2010
-        }
+        }*/
     },
 
     series: series
